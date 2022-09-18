@@ -1,7 +1,8 @@
 ---
 applications:
-- name: carbookWH
-  host: carbookWH
+- name: carbookWHamar            ###
+  host: carbookWHamar            ###
+  command: npm run inspect
   buildpack: nodejs_buildpack
   memory: 128M
-  command: node server
+### command: node server

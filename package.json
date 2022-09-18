@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "node server.js",
+    "inspect": "node --inspect server.js",
     "start": "node server.js"
   },
   "author": "Partha",
